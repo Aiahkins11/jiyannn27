@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: 	#66b2b2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #008080;
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  .header-container h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  #hero {
+    height: 480px;
+    text-align: center;
+    color: white;
+    padding: 0px;
+
+  }
+  
+  .hero-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  #hero .hero-content img {
+    width: 800px;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  #members .member {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  #members .member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #login-signup {
+    background-color: #008080;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #login-signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #login-signup input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #login-signup button {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    background-color: #3a3a3a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #login-signup button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #3a3a3a;
+    padding: 15px;
+    color: white;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    #hero {
+      height: 200px;
+    }
+  
+    .header-container h1 {
+      font-size: 20px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    nav ul li a {
+      font-size: 14px;
+    }
+  
+    #members .member {
+      display: block;
+      margin: 15px auto;
+    }
+  
+    #members .member img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    ul li {
+      font-size: 16px;
+    }
+  }
+  
